@@ -54,8 +54,7 @@ private:
     line_number_editor* code_editor;
 };
 
-// ── Inline implementations (need both classes complete) ───────────────────────
-
+// Inline implementations (need both classes complete)
 inline line_number_editor::line_number_editor(QWidget* parent)
     : QPlainTextEdit(parent)
     , number_area(new line_number_area(this))

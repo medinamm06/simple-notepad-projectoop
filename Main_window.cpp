@@ -3,7 +3,6 @@
 #include "notepad_exception.h"
 #include "ui_find_replace_dialog.h"
 #include "ui_word_frequency_dialog.h"
-
 #include <QAction>
 #include <QApplication>
 #include <QColorDialog>
