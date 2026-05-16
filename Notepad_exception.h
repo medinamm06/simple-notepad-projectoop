@@ -20,7 +20,13 @@ public:
   }
 };
 
-
+class file_read_exception : public notepad_exception {
+public:
+  explicit file_read_exception(const std::string& filename)
+      : notepad_exception("Failed to read file: '" + filename + "'")
+  {
+  }
+};
 
 class file_write_exception : public notepad_exception {
 public:
