@@ -69,7 +69,6 @@ main_window::main_window()
 main_window::~main_window() = default;
 
 // File menu
-
 void main_window::setup_file_menu()
 {
     auto* file_menu = menuBar()->addMenu("File");
@@ -80,7 +79,6 @@ void main_window::setup_file_menu()
         current_file.clear();
         update_title();
     });
-
     file_menu->addSeparator();
 
     auto* action_open = file_menu->addAction("Open...");

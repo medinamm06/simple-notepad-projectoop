@@ -20,7 +20,6 @@ public:
             }
         }
     }
-
     [[nodiscard]] bool is_correct(const std::string& word) const
     {
         std::string lower = word;

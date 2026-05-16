@@ -3,6 +3,8 @@
 #include <QPaintEvent>
 #include <QPainter>
 
+
+
 void line_number_editor::line_number_paint(QPaintEvent* event)
 {
   QPainter painter(number_area);
