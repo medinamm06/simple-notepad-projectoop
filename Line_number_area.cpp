@@ -22,6 +22,9 @@ void line_number_editor::line_number_paint(QPaintEvent* event)
       painter.drawText(0, top, number_area->width() - 3,
           fontMetrics().height(), Qt::AlignRight, number);
     }
-
+    block = block.next();
+    top = bottom;
+    bottom = top + qRound(blockBoundingRect(block).height());
+    ++block_number;
   }
 }
