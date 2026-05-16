@@ -63,7 +63,7 @@ private:
 
 
   // Spell check context menu
-  void show_context_menu(const QPoint& pos);
+
 
 
   // Widgets
