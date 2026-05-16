@@ -61,8 +61,10 @@ private:
   void show_word_frequency();
   void run_spell_check();
 
+
   // Spell check context menu
   void show_context_menu(const QPoint& pos);
+
 
   // Widgets
   line_number_editor* editor { nullptr };
